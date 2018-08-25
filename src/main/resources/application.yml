@@ -12,3 +12,9 @@ spring:
 mybatis:
   configuration:
     mapUnderscoreToCamelCase: true
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  pageSizeZero: true
+  params: count=countSql
